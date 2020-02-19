@@ -20,6 +20,7 @@ class App extends React.Component {
   render(){
   return (
     <div>
+      
     {
       (this.state.login) ?
       <TicTacToe logoutUser={()=> this.logoutUser()} /> :
